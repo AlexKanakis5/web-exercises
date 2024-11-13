@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'monserat';
+    src: url('../fonts/Montserrat-Regular.ttf') format('opentype');
+}
+
+:root {
+    font-family: 'monserat', sans-serif;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #F5F7F4;
+}
+
+input{
+    /* width: 200px; */
+}
+
+#font_check{
+    font-size: 32px;
+}
+
+#container{
+    display: flex;
+}
+
+#p-form_container{
+    width: 100vw;
+
+}
+#form_container{
+    display: flex;
+    flex-direction: column;
+
+    padding: 3%;
+    margin-top: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2), 10px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+#leaf_image{
+    
+    height: 100vh;
+    width: max(40%, 0vw); /* Adjust the subtracted value as needed */
+    object-fit: cover;
+    margin: 0;
+
+}
+
+#singup_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 2vw;
+}
+
+
+.submit_button{
+    margin-top: 20px;
+    color: white;
+    background-color:  #688468;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+
+#first_name, #last_name, #email, #password, #confirm_password, #phone_number{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%;  */
+}
+
+
+.row{
+    display: flex;
+    gap: 30px;
+}
+
+input{
+    margin-top: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #d4d3d3;
+}
+
+label{
+    margin-top: 15px;
+    margin-bottom: -2px;
+}
+
+#disclaimer{
+    margin-left: 4vw;
+    max-width: 40vw;
+    font-weight: 600;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: -100px;
+    padding-top: 100px;
+}

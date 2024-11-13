@@ -1,0 +1,49 @@
+#square_grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: auto;
+}
+.square {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+    opacity: 0%;
+
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin-right: 22px;
+}
+
+#buttons button{
+    margin-left: 20px;
+}
+
+#buttons input{
+    margin-right: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+#screen{
+    background-color: slateblue;
+}
+
+#calculator{
+    background-color: red;
+    border: 2px solid black;
+}
